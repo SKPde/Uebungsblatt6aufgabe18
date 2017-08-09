@@ -24,6 +24,13 @@ public class WerteSchlangeHaupt {
 				break;
 			case 2:
 				System.out.print("Folgender Wert wird weggenommen: ");
+				temp = schlange.raus();
+				if(temp != null) {
+					System.out.print(temp.d);
+				} else {
+					System.out.print("Kein Wert vorhanden :(");
+				}
+				System.out.println(" ");
 			}
 		}
 	}
